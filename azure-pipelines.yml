@@ -5,7 +5,9 @@ variables:
    - name: process.clean
      value: false
 
-pool: Default
+pool:
+  name: Default
+
 
 stages:
 - stage: Build
